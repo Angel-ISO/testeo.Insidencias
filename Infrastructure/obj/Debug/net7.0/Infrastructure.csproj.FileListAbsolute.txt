@@ -1,0 +1,10 @@
+/home/apolm01-007/Downloads/incidence-main/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.AssemblyReference.cache
+/home/apolm01-007/Downloads/incidence-main/Infrastructure/obj/Debug/net7.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolm01-007/Downloads/incidence-main/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfoInputs.cache
+/home/apolm01-007/Downloads/incidence-main/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfo.cs
+/home/apolm01-007/Downloads/incidence-main/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CoreCompileInputs.cache
+/home/apolm01-007/Documents/testeo.Insidencias/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.AssemblyReference.cache
+/home/apolm01-007/Documents/testeo.Insidencias/Infrastructure/obj/Debug/net7.0/Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/apolm01-007/Documents/testeo.Insidencias/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfoInputs.cache
+/home/apolm01-007/Documents/testeo.Insidencias/Infrastructure/obj/Debug/net7.0/Infrastructure.AssemblyInfo.cs
+/home/apolm01-007/Documents/testeo.Insidencias/Infrastructure/obj/Debug/net7.0/Infrastructure.csproj.CoreCompileInputs.cache
