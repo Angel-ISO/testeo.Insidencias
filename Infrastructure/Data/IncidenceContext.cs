@@ -19,8 +19,6 @@ public class IncidenceContext : DbContext {
         public DbSet<DocumentType> ? DocumentTypes { get; set; }
         public DbSet<DetailIncidence> ? DetailIncidences { get; set; }
         public DbSet<ContactType> ? ContactTypes { get; set; }
-        public DbSet<DetailIncidence> ? DetailIncidences { get; set; }
-        public DbSet<ContactType> ? ContactTypes { get; set; }
         public DbSet<Contact> ? Contacts { get; set; }
         public DbSet<CategoryContact> ? CategoryContacts { get; set; }
         public DbSet<AreaUser> ? AreaUsers { get; set; }
@@ -34,8 +32,8 @@ public class IncidenceContext : DbContext {
         modelBuilder.ApplyConfiguration(new AreaUserConfiguration());
         modelBuilder.ApplyConfiguration(new CategoryContactConfiguration());
         modelBuilder.ApplyConfiguration(new ContactConfiguration());
-        modelBuilder.ApplyConfiguration(new ContactType());
-        modelBuilder.ApplyConfiguration(new DetailIncidence());
+        modelBuilder.ApplyConfiguration(new ContactTypeConfiguration());
+        modelBuilder.ApplyConfiguration(new DetailIncidenceConfiguration());
         modelBuilder.ApplyConfiguration(new DocumentTypeConfiguration());
         modelBuilder.ApplyConfiguration(new IncidenceConfiguration());
         modelBuilder.ApplyConfiguration(new LevelIncidenceConfiguration());

@@ -23,9 +23,17 @@ public class IncidenceConfiguration : IEntityTypeConfiguration<Incidence>
             .HasForeignKey(z => z.Id_User)
             .IsRequired();
 
+             builder.HasOne(y => y.Area)
+            .WithMany(l => l.Incidences)
+            .HasForeignKey(z => z.Id_Area)
+            .IsRequired();
          
+            builder.HasOne(y => y.State)
+            .WithMany(l => l.Incidences)
+            .HasForeignKey(z => z.Id_State)
+            .IsRequired();
 
-
-
+            
+         
     }
 }

@@ -16,7 +16,25 @@ public class DetailIncidenceConfiguration : IEntityTypeConfiguration<DetailIncid
         builder.Property(p => p.Description_DetailIncidence).IsRequired().HasMaxLength(100);
 
 
-
+     builder.HasOne(y => y.Incidence)
+            .WithMany(l => l.DetailIncidences)
+            .HasForeignKey(z => z.Id_DetailIncidence)
+            .IsRequired();
             
+            builder.HasOne(y => y.State)
+            .WithMany(l => l.DetailIncidences)
+            .HasForeignKey(z => z.Id_State)
+            .IsRequired();
+
+            builder.HasOne(y => y.TypeIncidence)
+            .WithMany(l => l.DetailIncidences)
+            .HasForeignKey(z => z.Id_TypeIncidence)
+            .IsRequired();
+
+            builder.HasOne(y => y.LevelOfIncidence)
+            .WithMany(l => l.DetailIncidences)
+            .HasForeignKey(z => z.Id_LevelIncidence)
+            .IsRequired();
+                        
     }
 }

@@ -21,6 +21,8 @@ public class AreaUserConfiguration : IEntityTypeConfiguration<AreaUser>
             .WithMany(l => l.AreaUsers)
             .HasForeignKey(z => z.Id_Area)
             .IsRequired();
+
+            
           
     }
 }

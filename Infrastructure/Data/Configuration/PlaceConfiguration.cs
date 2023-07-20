@@ -13,5 +13,10 @@ public class PlaceConfiguration : IEntityTypeConfiguration<Place>
         builder.Property(p => p.Description_Place).IsRequired().HasMaxLength(100);
 
 
+
+              builder.HasOne(y => y.Area)
+            .WithMany(l => l.Places)
+            .HasForeignKey(z => z.Id_AreaOrigin)
+            .IsRequired();
     }
 }
